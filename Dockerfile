@@ -13,4 +13,4 @@ RUN pip install awscli docker-compose
 RUN curl -o /usr/local/bin/ecs https://s3.amazonaws.com/amazon-ecs-cli/ecs-cli-linux-amd64-latest
 RUN chmod +x /usr/local/bin/ecs
 
-RUN export PYTHONUSERBASE=packages && pip install -r requirement.txt --user
+RUN export PYTHONUSERBASE=packages && pip install -r requirements.txt --user
