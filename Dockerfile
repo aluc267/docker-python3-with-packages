@@ -4,7 +4,7 @@ FROM python:3.6.4
 # Ref: https://deb.nodesource.com/setup_8.x
 # Ref: https://yarnpkg.com/en/docs/install
 
-COPY . /usr/packages
+COPY . /usr
 WORKDIR /usr
 
 RUN apt-get update
